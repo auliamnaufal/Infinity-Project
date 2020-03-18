@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+footer {
+    margin-top: 20%;
+    padding: 2%;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.jumbotrons h1 {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    color: white;
+    font-size: 5rem;
+}
+
+.jumbotrons p {
+    font-family: "Poppins", serif;
+    color: white;
+}
+
+.bc {
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.who img {
+    height: 400px;
+    width: 550px;
+}
+
+
+.about h1,
+p {
+    position: relative;
+    top: 45%;
+}
+
+.who {
+    margin: 100px auto 100px auto;
+}
+
+.value {
+    margin: 200px auto 100px auto;
+    line-height: 1.5;
+}
+
+.value .v1 {
+    height: 390px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+}
+
+.value .v2 {
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 2%;
+    left: 40%;
+}
+
+.value .vision {
+    position: relative;
+    top: 5%;
+}
+
+.values h1 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.value .mission {
+    position: relative;
+    top: 12%;
+}
+
+.values h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.value .goals {
+    position: relative;
+    top: 20%;
+}
+
+.value p {
+    font-family: "Poppin", sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.about {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/about.jpeg);
+    height: 60%;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.content p {
+    width: 500px;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.content h2 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+
+}
+
+.card img {
+    border-radius: 10px;
+}
+
+.card {
+    margin: auto;
+}
+
+.nav-item {
+    font-weight: 600;
+}
+
+.jumbo {
+    position: absolute;
+    top: 300px;
+    left: 30%;
+}
+
+.jumbo p {
+    margin: 50px auto;
+    width: 500px;
+}
+
+.nav-item {
+    margin-left: 50px;
+}
+
+.jumbotrons {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/learning.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.lobby {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    right: 0%;
+}
+
+.title {
+    font-size: 15rem;
+    text-align: center;
+}
+
+.heading-news {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 70px auto 40px auto;
+}
+
+.heading {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.news {
+    margin: 20px 300px;
+    padding: 20px 10px;
+}
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
