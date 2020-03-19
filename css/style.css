@@ -134,6 +134,11 @@ p {
     margin-top: 50px;
 }
 
+.about p {
+    width: 1000px;
+    margin: auto;
+}
+
 
 .content p {
     width: 500px;
@@ -164,7 +169,7 @@ p {
 
 .jumbo {
     position: absolute;
-    top: 300px;
+    top: 400px;
     left: 30%;
 }
 
