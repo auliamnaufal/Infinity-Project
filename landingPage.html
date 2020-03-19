@@ -3,10 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 
+    <!-- font Awesome -->
+    <script src="https://kit.fontawesome.com/4aa5b7e1c9.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap javascript -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
@@ -21,6 +27,7 @@
 
 <body>
 
+    <!--------Nav Bar---------->
     <nav class="navbar navbar-expand-lg navbar navbar-light bg-light" style="background-color: #e3f2fd;">
         <a class="navbar-brand" href="#">
             <img src="https://lh3.googleusercontent.com/proxy/OkFS2rG9mdzQk4kpjKY8UURjW2yYOYXvcFnxe16t0BWip19-KE-cfv6ZL1IeBLffjWxQ48VjcBeNBmxUJxiVemhPJTcBW9aYeN_vyfVc1_vkCPOsdIeb2lO035XakNgXrgCP-qttOF552SfOOJXbO08tRCKu7PKoEuL8mRLoaOyKVLVimcU-9yzG-qAtkg"
@@ -32,10 +39,9 @@
         </button>
         <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">News</a>
-                <a class="nav-item nav-link" href="#">Project</a>
-                <a class="nav-item nav-link" href="#">Contact</a>
+                <a class="nav-item nav-link" href="#news">News<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#about">About Us </a>
+                <a class="nav-item nav-link" href="#project">Project</a>
             </div>
         </div>
     </nav>
@@ -54,8 +60,7 @@
     </div>
 
     <!-- News -->
-
-    <h1 class="heading-news">News</h1>
+    <h1 class="heading-news" id="news">News</h1>
     <div class="card" style="width: 20rem;">
         <img src="img/corona.jpeg" class="card-img-top" alt="corona">
         <div class="card-body">
@@ -67,7 +72,9 @@
         </div>
     </div>
 
-    <div class="about">
+
+    <!-- About -->
+    <div class="about" id="about">
         <h1>About Infinity Project</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi explicabo esse eius. </p>
     </div>
@@ -126,12 +133,57 @@
         </div>
     </div>
 
+    <!-- 8 project -->
+
+    <div class="bcp">
+        <div class="project">
+            <h1 class="heading-project" id="project">8-Project</h1>
+            <div class="row">
+                <div class="card col-lg-3" style="width: 20rem;">
+                    <img src="img/photo.jpg" class="card-img-top" alt="foto bersama">
+                    <div class="card-body">
+                        <h5 class="card-title">1819</h5>
+                        <p class="card-text">
+                            corona is very dengerous virus deadly
+                        </p>
+                        <a href="1819.html" class="btn btn-light container-fluid">Read More</a>
+                    </div>
+                </div>
+
+                <div class="card col-lg-3" style="width: 20rem;">
+                    <img src="img/photo2.jpg" class="card-img-top" alt="photo bersamaan">
+                    <div class="card-body">
+                        <h5 class="card-title">1920</h5>
+                        <p class="card-text">
+                            corona is very dengerous virus deadly
+                        </p>
+                        <a href="1920.html" class="btn btn-light container-fluid">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer>
+        <a href="https://web.facebook.com/Madrasah-Internasional-TechnoNatura-342022399587252/" target="blank">
+            <i class="social-icon fab fa-facebook-f"></i>
+        </a>
+
+        <a href="https://twitter.com/R2045_id?s=20" target="blank">
+            <i class="social-icon fab fa-twitter"></i>
+        </a>
+
+        <a href="https://www.instagram.com/technonatura/?hl=id" target="blank">
+            <i class="social-icon fab fa-instagram"></i>
+        </a>
         <p>© Copyright Technonatura 81920</p>
     </footer>
 
-
-
+    <!-----Smooth Scroll----->
+    <script src="smooth-scroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
 </body>
 
 </html>
