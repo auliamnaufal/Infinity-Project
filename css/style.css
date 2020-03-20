@@ -6,6 +6,14 @@
     background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1))
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Poppins", sans-serif;
+}
+
 footer {
     margin-top: 5%;
     padding: 2%;
@@ -28,28 +36,24 @@ footer a:hover {
     font-size: 5rem;
 }
 
-.jumbotrons p {
-    font-family: "Poppins", serif;
-    color: white;
-}
 
-.bcp {
+
+/* .bcp {
     background-color: #f5f5f5;
     height: 650px;
     position: relative;
     top: 80px;
     margin-bottom: 40px;
-}
-
+} */
 
 
 .project {
-    padding-top: 1px;
+    padding-top: 100px;
 }
 
 .bc {
     position: absolute;
-    height: 600px;
+    height: 880px;
     width: 100%;
     background-color: #f5f5f5;
 }
@@ -57,7 +61,12 @@ footer a:hover {
 .who img {
     height: 400px;
     width: 550px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.who h2 {
+    margin-right: 50px;
+    position: relative;
+    right: 25%;
 }
 
 .about h1,
@@ -67,11 +76,12 @@ p {
 }
 
 .who {
-    margin: 100px auto 100px auto;
+    padding: 100px;
 }
 
 .value {
-    margin: 200px auto 100px auto;
+    margin-top: 50px;
+    padding: 300px auto 100px auto;
     line-height: 1.5;
 }
 
@@ -95,19 +105,17 @@ p {
 
 }
 
-.value .vision {
-    position: relative;
-    top: 5%;
-}
-
-.values h1 {
-    font-size: 3rem;
-    font-weight: 400;
+.v {
+    margin-bottom: 50px;
 }
 
 .value .mission {
-    position: relative;
     top: 12%;
+}
+
+.values h1 {
+    margin-bottom: 50px;
+    font-weight: 900;
 }
 
 .values h2 {
@@ -116,7 +124,6 @@ p {
 }
 
 .value .goals {
-    position: relative;
     top: 20%;
 }
 
@@ -143,17 +150,9 @@ p {
 .content p {
     width: 500px;
     font-size: 1.5rem;
-    position: absolute;
-    top: 35%;
-    left: 10%;
 }
 
-.content h2 {
-    position: absolute;
-    top: 20%;
-    left: 10%;
-
-}
+.content h2 {}
 
 .card img {
     border-radius: 10px;
@@ -178,11 +177,8 @@ p {
 .fakta p {
     font-weight: 600;
     color: #bdbcbb;
-    position: absolute;
     font-size: 1rem;
     line-height: 1.5;
-    top: 52%;
-    right: 55%;
 }
 
 .fakta .h1,
@@ -199,14 +195,10 @@ p {
     right: 5%;
 }
 
-.fakta .but {
-    right: 5%;
-}
+
 
 
 .fakta button {
-    position: absolute;
-    top: 75%;
     text-transform: uppercase;
     padding: 10px 20px;
     font-family: "Poppin", sans-serif;
@@ -318,11 +310,110 @@ p {
     padding: 20px 10px;
 }
 
-
-
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
+}
+
+.but {
+    position: relative;
+    left: 75%;
+}
+
+@media (max-width: 1028px) {
+
+    .fakta,
+    .imun {
+        text-align: center;
+        margin: auto;
+    }
+
+    .fakta .h1,
+    .p {
+        text-align: center;
+        margin: 10px auto 30px auto;
+    }
+
+    .but {
+        position: static;
+        margin: 10px auto 30px auto;
+    }
+
+    .img {
+        position: static;
+    }
+
+    .heading {
+        position: relative;
+        right: 15%;
+    }
+
+    .about {
+        position: static;
+    }
+
+    .about h1 {
+        margin-bottom: 10px;
+    }
+
+    .about p {
+        width: 600px;
+    }
+
+    .who {
+        margin: auto;
+        text-align: center;
+        position: relative;
+        right: 10px;
+    }
+
+    .who h2 {
+        position: relative;
+        left: 5%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .who p {
+        margin-top: 20px;
+    }
+
+    .value .v1,
+    .v2 {
+        position: static;
+    }
+
+    .values h1 {
+        text-align: center;
+        margin: 0;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+
+    .values h2 {
+        text-align: center;
+    }
+
+    .values li {
+        text-align: center;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .value .v1 {
+        position: relative;
+        text-align: center;
+        top: 10px;
+        left: 150px;
+    }
+
+    .value .v2 {
+        display: none;
+    }
+
+    .bc {
+        height: 1130px;
+    }
 }
