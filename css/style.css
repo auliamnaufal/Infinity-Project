@@ -83,6 +83,8 @@ h5 {
     padding: 7% 15%;
 }
 
+
+
 .row {
     margin-bottom: 25px;
 }
@@ -394,12 +396,73 @@ p {
     padding: 20px 10px;
 }
 
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
 }
+
+/* .clevel {
+    position: relative;
+}
+
+.story {
+    height: 25vh;
+    position: relative;
+    background-image: url('../img/camping.jpg');
+    background-size: 50% 100%;
+}
+
+.story a {
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    margin-left: 5rem;
+}
+
+.snapshot {
+    height: 25vh;
+    position: relative;
+
+}
+
+.snapshot a {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    margin-right: 5rem;
+
+}
+
+.projectc {
+    height: 25vh;
+    position: relative;
+
+}
+
+.projectc a {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 5rem;
+}
+
+.totm {
+    height: 25vh;
+    position: relative;
+
+}
+
+.totm a {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    margin-right: 5rem;
+} */
 
 .but {
     position: relative;
@@ -423,6 +486,10 @@ p {
     .but {
         position: static;
         margin: 10px auto 30px auto;
+    }
+
+    .top {
+        margin: auto;
     }
 
     .img {
